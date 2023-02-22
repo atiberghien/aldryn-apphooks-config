@@ -2,8 +2,8 @@
 
 This project is no longer supported.
 
-Divio will undertake no further development or maintenance of this project. If you are interested in continuing to 
-develop it, use the fork functionality from GitHub. We are not able to transfer ownership of the repository to another 
+Divio will undertake no further development or maintenance of this project. If you are interested in continuing to
+develop it, use the fork functionality from GitHub. We are not able to transfer ownership of the repository to another
 party.
 
 |PyPI Version| |Build Status| |Coverage Status|
@@ -124,7 +124,7 @@ Names are ``AppHookConfigTranslatableManager`` and
 
     from aldryn_apphooks_config.app_base import CMSConfigApp
     from cms.apphook_pool import apphook_pool
-    from django.utils.translation import ugettext_lazy as _
+    from django.utils.translation import gettext_lazy as _
     from .models import NewsBlogConfig
 
 
